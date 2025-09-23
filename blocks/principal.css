@@ -1,0 +1,139 @@
+.principal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.principal__title {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 6vw;
+  font-style: normal;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 32px;
+  /* padding-top: 30%; */
+  margin: 0;
+}
+
+.principal__title-span {
+  display: block;
+}
+.principal__subtitle {
+  font-size: 3vw;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 10%;
+}
+
+.principal__paisaje {
+  max-width: 100%;
+
+  /* max-width: 984px; */
+  height: auto;
+  padding-bottom: 72px;
+}
+
+.principal__text {
+  margin: 0;
+  padding: 0 5%;
+}
+
+.principal__text-title {
+  font-size: 4vw;
+  line-height: 1;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.principal__paragraph {
+  font-size: 2vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+}
+
+.principal__name {
+  font-size: 2vw;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: flex;
+  justify-content: end;
+}
+
+.principal__description {
+  font-size: 1vw;
+  font-weight: normal;
+  line-height: 1;
+  padding-bottom: 92px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) and (max-width: 768px) {
+  .principal__text {
+    font-size: 4vw;
+    padding: 0 15%;
+  }
+  .principal__paisaje {
+    width: 100%;
+  }
+  .principal__name {
+    font-size: 1vw;
+  }
+  .principal__description {
+    font-size: 2vw;
+  }
+  .principal__text {
+    padding: 0;
+    font-size: 2vw;
+  }
+  .principal__paragraph {
+    font-size: 3vw;
+  }
+  .principal__name {
+    font-size: 3vw;
+  }
+  .principal__description {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .principal {
+    padding: 0 10px;
+  }
+  .principal__title {
+    padding: 0;
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+  .principal__subtitle {
+    font-size: 16px;
+    padding-bottom: 16px;
+  }
+  .principal__paisaje {
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  .principal__text {
+    padding: 0;
+  }
+  .principal__text-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .principal__paragraph {
+    font-size: 24px;
+  }
+  .principal__name {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+  .principal__description {
+    font-size: 16px;
+  }
+}
