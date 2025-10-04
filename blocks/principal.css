@@ -76,7 +76,7 @@
     padding: 0 15%;
   }
   .principal__paisaje {
-    width: 100%;
+    max-width: 100%;
   }
   .principal__name {
     font-size: 1vw;
